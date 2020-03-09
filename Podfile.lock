@@ -1,0 +1,132 @@
+PODS:
+  - Alamofire (4.8.2)
+  - AlamofireObjectMapper (4.1.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 2.0)
+  - Daysquare (0.1.0)
+  - Firebase (3.17.0):
+    - Firebase/Core (= 3.17.0)
+  - Firebase/Core (3.17.0):
+    - FirebaseAnalytics (= 3.9.0)
+    - FirebaseCore (= 3.6.0)
+  - FirebaseAnalytics (3.9.0):
+    - FirebaseCore (~> 3.6)
+    - FirebaseInstanceID (~> 1.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseCore (3.6.0):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseInstanceID (1.0.10):
+    - FirebaseCore (~> 3.6)
+  - Floaty (4.2.0)
+  - Google/Core (3.1.0):
+    - FirebaseAnalytics (~> 3.2)
+  - Google/SignIn (3.1.0):
+    - Google/Core
+    - GoogleSignIn (~> 4.0)
+  - GoogleSignIn (4.4.0):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.2.1):
+    - GoogleToolboxForMac/Defines (= 2.2.1)
+  - GoogleToolboxForMac/Defines (2.2.1)
+  - "GoogleToolboxForMac/NSData+zlib (2.2.1)":
+    - GoogleToolboxForMac/Defines (= 2.2.1)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.2.1)":
+    - GoogleToolboxForMac/DebugUtils (= 2.2.1)
+    - GoogleToolboxForMac/Defines (= 2.2.1)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.1)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.2.1)"
+  - GTMSessionFetcher/Core (1.2.2)
+  - IQKeyboardManagerSwift (6.4.1)
+  - JTAppleCalendar (6.0.5)
+  - Kingfisher (4.3.1)
+  - libjingle_peerconnection (11177.2.0)
+  - ObjectMapper (2.2.9)
+  - Socket.IO-Client-Swift (15.1.0):
+    - Starscream (~> 3.1)
+  - SocketRocket (0.5.1)
+  - Starscream (3.1.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (5.0.0)
+  - TextFieldEffects (1.6.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireObjectMapper (~> 4.0)
+  - Daysquare (from `https://github.com/unixzii/Daysquare.git`)
+  - Firebase
+  - Floaty
+  - Google/SignIn
+  - IQKeyboardManagerSwift
+  - JTAppleCalendar (~> 6.0.0-beta.1)
+  - Kingfisher (~> 4.3.1)
+  - libjingle_peerconnection
+  - Socket.IO-Client-Swift
+  - SocketRocket
+  - SVProgressHUD
+  - SwiftyJSON
+  - TextFieldEffects
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireObjectMapper
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - Floaty
+    - Google
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GTMSessionFetcher
+    - IQKeyboardManagerSwift
+    - JTAppleCalendar
+    - Kingfisher
+    - libjingle_peerconnection
+    - ObjectMapper
+    - Socket.IO-Client-Swift
+    - SocketRocket
+    - Starscream
+    - SVProgressHUD
+    - SwiftyJSON
+    - TextFieldEffects
+
+EXTERNAL SOURCES:
+  Daysquare:
+    :git: https://github.com/unixzii/Daysquare.git
+
+CHECKOUT OPTIONS:
+  Daysquare:
+    :commit: 641a9b91dd2380c9a302dfeeb3876afe9bacd416
+    :git: https://github.com/unixzii/Daysquare.git
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AlamofireObjectMapper: 435adc82f5b367679bd9e71c4974a54efd0b2521
+  Daysquare: 682586c9b2a96958633e2f967a43054a718d1a09
+  Firebase: 4b66b5b59c43edac745b87f0c87e42cdd0279c13
+  FirebaseAnalytics: e5fe8486efc01bec33f6bf82e2fa9fce4b124052
+  FirebaseCore: 9691ee2ade70c098d7cf92440f4303f16d83ca75
+  FirebaseInstanceID: b9eedd6846fb5e1f0f7279e1deaa7a7e4cf8392e
+  Floaty: e2bd5a0f6f7f70899e26ff2da31081c8bee8d1b0
+  Google: 98da4b1a60ed0beb80a290387a28333406a1eb90
+  GoogleSignIn: 7ff245e1a7b26d379099d3243a562f5747e23d39
+  GoogleToolboxForMac: b3553629623a3b1bff17f555e736cd5a6d95ad55
+  GTMSessionFetcher: 61bb0f61a4cb560030f1222021178008a5727a23
+  IQKeyboardManagerSwift: d2df660d0b8d64a15cb2537c9ff303213fa515b2
+  JTAppleCalendar: 7ea3f3e66fcbbb62978a01a58e3a3ae88fdad7cc
+  Kingfisher: 75541c4b62f02e1fde6f9772303de3d9ebe8f5b3
+  libjingle_peerconnection: 3458f646ddd61f08a9f3a0c43fb01fff5c165eb8
+  ObjectMapper: 63cfe41bc6f8e7c8f44344c49901b8ae7de14c52
+  Socket.IO-Client-Swift: 7cb44c0ffb86e158cee32d0642d30ec5fdcf8f61
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  Starscream: 08172b481e145289c4930cb567230fb55897cfa4
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  TextFieldEffects: 529b8aff706fb40f82c41c780c0777941a893796
+
+PODFILE CHECKSUM: aaeae788362cb10c58791c5f99d50c16904f5e98
+
+COCOAPODS: 1.7.5

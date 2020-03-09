@@ -1,0 +1,6 @@
+framework module Pods_SEHATKAHANI {
+  umbrella header "Pods-SEHATKAHANI-umbrella.h"
+
+  export *
+  module * { export * }
+}
